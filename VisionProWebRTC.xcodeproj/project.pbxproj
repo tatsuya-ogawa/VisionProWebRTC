@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093A96DC2CCCEE4A00AA757F /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 093A96DB2CCCEE4A00AA757F /* RealityKitContent */; };
+		09B339C92CD0B3A2007FCAFC /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 09B339C82CD0B3A2007FCAFC /* Starscream */; };
+		09B339D02CD0C88E007FCAFC /* WebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B339CF2CD0C88E007FCAFC /* WebRTC.framework */; };
+		09B339D12CD0C8CB007FCAFC /* WebRTC.framework in Resources */ = {isa = PBXBuildFile; fileRef = 09B339CF2CD0C88E007FCAFC /* WebRTC.framework */; };
+		09E3F4332CCF8D9B00DF9040 /* AWSKinesisVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 09E3F4322CCF8D9B00DF9040 /* AWSKinesisVideo */; };
+		09E3F4352CCF8D9B00DF9040 /* AWSKinesisVideoSignaling in Frameworks */ = {isa = PBXBuildFile; productRef = 09E3F4342CCF8D9B00DF9040 /* AWSKinesisVideoSignaling */; };
+		09E3F47A2CCFAA0700DF9040 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 09E3F4792CCFAA0700DF9040 /* AWSCognitoAuthPlugin */; };
+		09E3F47C2CCFAA0700DF9040 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = 09E3F47B2CCFAA0700DF9040 /* Amplify */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		093A96D62CCCEE4A00AA757F /* VisionProWebRTC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionProWebRTC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		093A96DA2CCCEE4A00AA757F /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		093A97412CCF416000AA757F /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		093A97432CCF41CE00AA757F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		093A97462CCF445800AA757F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		093A97482CCF457E00AA757F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		09B339CF2CD0C88E007FCAFC /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebRTC.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		093A96E72CCCEE4B00AA757F /* Exceptions for "VisionProWebRTC" folder in "VisionProWebRTC" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 093A96D52CCCEE4A00AA757F /* VisionProWebRTC */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		093A96D82CCCEE4A00AA757F /* VisionProWebRTC */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				093A96E72CCCEE4B00AA757F /* Exceptions for "VisionProWebRTC" folder in "VisionProWebRTC" target */,
+			);
+			path = VisionProWebRTC;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093A96D32CCCEE4A00AA757F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B339C92CD0B3A2007FCAFC /* Starscream in Frameworks */,
+				093A96DC2CCCEE4A00AA757F /* RealityKitContent in Frameworks */,
+				09E3F47A2CCFAA0700DF9040 /* AWSCognitoAuthPlugin in Frameworks */,
+				09B339D02CD0C88E007FCAFC /* WebRTC.framework in Frameworks */,
+				09E3F4332CCF8D9B00DF9040 /* AWSKinesisVideo in Frameworks */,
+				09E3F47C2CCFAA0700DF9040 /* Amplify in Frameworks */,
+				09E3F4352CCF8D9B00DF9040 /* AWSKinesisVideoSignaling in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093A96CD2CCCEE4A00AA757F = {
+			isa = PBXGroup;
+			children = (
+				09B339CF2CD0C88E007FCAFC /* WebRTC.framework */,
+				093A96D82CCCEE4A00AA757F /* VisionProWebRTC */,
+				093A96D92CCCEE4A00AA757F /* Packages */,
+				093A97402CCF416000AA757F /* Frameworks */,
+				093A96D72CCCEE4A00AA757F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		093A96D72CCCEE4A00AA757F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093A96D62CCCEE4A00AA757F /* VisionProWebRTC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093A96D92CCCEE4A00AA757F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				093A96DA2CCCEE4A00AA757F /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		093A97402CCF416000AA757F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				093A97482CCF457E00AA757F /* AVFoundation.framework */,
+				093A97462CCF445800AA757F /* AudioToolbox.framework */,
+				093A97432CCF41CE00AA757F /* CoreAudio.framework */,
+				093A97412CCF416000AA757F /* AudioUnit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093A96D52CCCEE4A00AA757F /* VisionProWebRTC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093A96E82CCCEE4B00AA757F /* Build configuration list for PBXNativeTarget "VisionProWebRTC" */;
+			buildPhases = (
+				093A96D22CCCEE4A00AA757F /* Sources */,
+				093A96D32CCCEE4A00AA757F /* Frameworks */,
+				093A96D42CCCEE4A00AA757F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				093A96D82CCCEE4A00AA757F /* VisionProWebRTC */,
+			);
+			name = VisionProWebRTC;
+			packageProductDependencies = (
+				093A96DB2CCCEE4A00AA757F /* RealityKitContent */,
+				09E3F4322CCF8D9B00DF9040 /* AWSKinesisVideo */,
+				09E3F4342CCF8D9B00DF9040 /* AWSKinesisVideoSignaling */,
+				09E3F4792CCFAA0700DF9040 /* AWSCognitoAuthPlugin */,
+				09E3F47B2CCFAA0700DF9040 /* Amplify */,
+				09B339C82CD0B3A2007FCAFC /* Starscream */,
+			);
+			productName = VisionProHello;
+			productReference = 093A96D62CCCEE4A00AA757F /* VisionProWebRTC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093A96CE2CCCEE4A00AA757F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					093A96D52CCCEE4A00AA757F = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 093A96D12CCCEE4A00AA757F /* Build configuration list for PBXProject "VisionProWebRTC" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093A96CD2CCCEE4A00AA757F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				09E3F4312CCF8D9B00DF9040 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */,
+				09E3F4782CCFAA0700DF9040 /* XCRemoteSwiftPackageReference "amplify-swift" */,
+				09B339C72CD0B3A2007FCAFC /* XCRemoteSwiftPackageReference "Starscream" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 093A96D72CCCEE4A00AA757F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093A96D52CCCEE4A00AA757F /* VisionProWebRTC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093A96D42CCCEE4A00AA757F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B339D12CD0C8CB007FCAFC /* WebRTC.framework in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093A96D22CCCEE4A00AA757F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		093A96E92CCCEE4B00AA757F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionProWebRTC/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/VisionProHello",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use microphone";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ogawa.VisionProWebRTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		093A96EA2CCCEE4B00AA757F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionProWebRTC/Preview Content\"";
+				DEVELOPMENT_TEAM = 5M67Q8ZZ53;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/VisionProHello",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use microphone";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ogawa.VisionProWebRTC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		093A96EB2CCCEE4B00AA757F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		093A96EC2CCCEE4B00AA757F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093A96D12CCCEE4A00AA757F /* Build configuration list for PBXProject "VisionProWebRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093A96EB2CCCEE4B00AA757F /* Debug */,
+				093A96EC2CCCEE4B00AA757F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093A96E82CCCEE4B00AA757F /* Build configuration list for PBXNativeTarget "VisionProWebRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093A96E92CCCEE4B00AA757F /* Debug */,
+				093A96EA2CCCEE4B00AA757F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09B339C72CD0B3A2007FCAFC /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.8;
+			};
+		};
+		09E3F4312CCF8D9B00DF9040 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/awslabs/aws-sdk-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		09E3F4782CCFAA0700DF9040 /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.43.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		093A96DB2CCCEE4A00AA757F /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		09B339C82CD0B3A2007FCAFC /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09B339C72CD0B3A2007FCAFC /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		09E3F4322CCF8D9B00DF9040 /* AWSKinesisVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09E3F4312CCF8D9B00DF9040 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			productName = AWSKinesisVideo;
+		};
+		09E3F4342CCF8D9B00DF9040 /* AWSKinesisVideoSignaling */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09E3F4312CCF8D9B00DF9040 /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			productName = AWSKinesisVideoSignaling;
+		};
+		09E3F4792CCFAA0700DF9040 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09E3F4782CCFAA0700DF9040 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		09E3F47B2CCFAA0700DF9040 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09E3F4782CCFAA0700DF9040 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 093A96CE2CCCEE4A00AA757F /* Project object */;
+}
