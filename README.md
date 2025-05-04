@@ -19,6 +19,9 @@ A sample repository demonstrating WebRTC integration on Apple Vision Pro using 
 - **Placeholder configuration**  
   All AWS/Kinesis configuration values are placeholders. To run the sample, you must fill in your own settings in `amplifyconfiguration.json` and replace the `FIXME` markers in code.
 
+- **Enterprise license file is not included**
+  VisionPro enterprise liceense file is not included. So you must use your own license file.
+
 ## CodeSign
 * if you need signing to WebRTC.framework
 ```
